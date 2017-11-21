@@ -13,6 +13,8 @@ header {
   align-items: center;
   color: MediumAquamarine;
   padding: 0 0 10px 20px;
+  border: 1px solid black;
+  flex-grow: 1;
 }
 
 #myt {
@@ -24,9 +26,33 @@ nav {
 }
 
 nav span {
-
+  margin: 0 10px;
 }
 
 a {
   color: black;
+}
+
+.main {
+  display: flex;
+  border: 1px solid black;
+  height: 100%;
+}
+
+.left {
+  display: flex;
+  flex-basis: 630px;
+  border: 1px solid black;
+}
+
+.mid {
+  display: flex;
+  flex-basis: 630px;
+  border: 1px solid black;
+}
+
+.right {
+  display: flex;
+  flex-basis: 630px;
+  border: 1px solid black;
 }
