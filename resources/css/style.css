@@ -43,16 +43,39 @@ a {
   display: flex;
   flex-basis: 630px;
   border: 1px solid black;
+  flex-direction: column;
 }
 
 .mid {
   display: flex;
   flex-basis: 630px;
   border: 1px solid black;
+  flex-direction: column;
 }
 
 .right {
   display: flex;
   flex-basis: 630px;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.art1 {
+  border: 1px solid black;
+}
+
+.art2 {
+  border: 1px solid black;
+}
+
+.art3 {
+  border: 1px solid black;
+}
+
+.art4 {
+  border: 1px solid black;
+}
+
+.art5 {
   border: 1px solid black;
 }
