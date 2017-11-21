@@ -37,6 +37,8 @@ a {
   display: flex;
   border: 1px solid black;
   height: 100%;
+  justify-content: space-between;
+
 }
 
 .left {
@@ -44,20 +46,23 @@ a {
   flex-basis: 630px;
   border: 1px solid black;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .mid {
   display: flex;
-  flex-basis: 630px;
+  flex-basis: 300px;
   border: 1px solid black;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .right {
   display: flex;
-  flex-basis: 630px;
+  flex-basis: 240px;
   border: 1px solid black;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .art1 {
@@ -77,5 +82,17 @@ a {
 }
 
 .art5 {
+  border: 1px solid black;
+}
+
+.art6 {
+  border: 1px solid black;
+}
+
+.art7 {
+  border: 1px solid black;
+}
+
+.art8 {
   border: 1px solid black;
 }
